@@ -22,9 +22,9 @@ uvicorn main:app --reload
 ### Usage:
 Open http://127.0.0.1:8000/docs in your browser and test the endpoints.
 
-Example Requests:
+### Example Requests:
+
 /generate → one random UUID
 /generate?count=5 → five UUIDs
 /generate?count=3&version=1 → UUID version 1
-
 /generate?count=3&prefix=user&format=short → prefixed short IDs
